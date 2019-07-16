@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.ui.cards{
+  display: flex;
+  justify-content: center;
+}
+
+.ui.segments:not(.horizontal)>.segment:first-child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i.large.icon, i.large.icons{
+  display: flex;
+  justify-content: flex-end;
+}
